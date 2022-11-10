@@ -1,8 +1,12 @@
 {
-    "name": "kevupton/laravel-coinpayments",
+    "name": "barisdemirhan/laravel-coinpayments",
     "description": "Coinpayments for Laravel",
-    "keywords": ["laravel", "lumen", "coinpayments"],
-    "type": "Extension",
+    "keywords": [
+        "laravel",
+        "lumen",
+        "coinpayments"
+    ],
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
@@ -11,9 +15,9 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=8.0",
         "kevupton/laravel-package-service-provider": "^0.0.5",
-        "doctrine/dbal": "^2.6"
+        "doctrine/dbal": "^3.1"
     },
     "autoload": {
         "psr-4": {
@@ -26,7 +30,7 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-        "laravel/laravel": "^5.5",
-        "laravel/lumen": "^5.5"
+        "laravel/laravel": "^8.4",
+        "laravel/lumen": "^8.0"
     }
 }
